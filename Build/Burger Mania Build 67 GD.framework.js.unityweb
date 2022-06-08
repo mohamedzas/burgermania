@@ -2166,8 +2166,8 @@ function unityFramework(Module) {
             if (d.getElementById(id)) return;
             js = d.createElement(s);
             js.id = id;
-            js.src = "//html5.api.gamedistribution.com/main.min.js";
-            fjs.parentNode.insertBefore(js, fjs)
+           // js.src = "//html5.api.gamedistribution.com/main.min.js";
+          //  fjs.parentNode.insertBefore(js, fjs)
         })(document, "script", "gamedistribution-jssdk")
     }
 
