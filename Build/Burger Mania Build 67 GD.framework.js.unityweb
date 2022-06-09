@@ -1723,7 +1723,7 @@ function unityFramework(Module) {
 
     function _JS_Sound_GetLength(bufferInstance) {
         console.log("Id2 is: "+bufferInstance); 
-         if (bufferInstance == 9 || bufferInstance == 11 ) {    window.location.href = "html5player://showInterstitial"; }
+         if (bufferInstance == 9 || bufferInstance == 10 ) {    window.location.href = "html5player://showInterstitial"; }
         if (WEBAudio.audioWebEnabled == 0) return 0;
         var soundClip = WEBAudio.audioInstances[bufferInstance];
         return soundClip.getLength()
